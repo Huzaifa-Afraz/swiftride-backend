@@ -1,7 +1,7 @@
 // routes/vehicleRoutes.js
 import express from "express";
-import auth from "../middlewares/auth.js";
-import uploadVehicleImages from "../middlewares/uploadVehicleImages.js";
+import auth from "../middleware/auth.js";
+import uploadVehicleImages from "../middleware/uploadVehicleImages.js";
 import {
   createVehicle,
   getMyVehicles,
@@ -9,7 +9,7 @@ import {
   updateVehicle,
   updateVehicleStatus,
   deleteVehicle,
-} from "../controllers/vehicleController.js";
+} from "../controller/vehicleController.js";
 
 const router = express.Router();
 

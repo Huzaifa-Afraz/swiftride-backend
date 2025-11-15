@@ -20,7 +20,6 @@ const Signup = new mongoose.Schema(
   },
   { timestamps: true },
 );
-
-const signup = mongoose.model("Users", Signup);
-signup.createIndexes();
+const signup =
+  mongoose.models.Users || mongoose.model("Users", Signup);
 export default signup;

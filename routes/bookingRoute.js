@@ -16,6 +16,7 @@ import {
   markReturned,
 } from "../Controller/bookingController.js";
 import { verifyToken } from "../Middleware/verifyToken.js";
+import auth from "../middleware/auth.js";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";

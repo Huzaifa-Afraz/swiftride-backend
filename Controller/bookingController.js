@@ -621,15 +621,6 @@ export const returnCar = async (req, res) => {
   }
 };
 
-
-
-
-
-// controllers/bookingController.js
-import Booking from "../models/Booking.js";
-import Vehicle from "../models/Vehicle.js";  // or "../models/Car.js"
-import Users from "../models/Signup.js";
-
 // Helper: combine date + time string into Date object
 const toDateTime = (dateStr, timeStr) => {
   // Expecting e.g. dateStr = "2025-11-15", timeStr = "14:00"

@@ -1,5 +1,5 @@
 // controllers/vehicleController.js
-import Vehicle from "../models/Vehicle.js";
+import Vehicle from "../Model/Vehicle.js";
 
 // POST /api/vehicles  (owner creates car/bike)
 export const createVehicle = async (req, res) => {

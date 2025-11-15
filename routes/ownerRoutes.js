@@ -1,7 +1,7 @@
 // routes/ownerRoutes.js
 import express from "express";
-import uploadOwnerDocs from "../middlewares/uploadOwnerDocs.js";
-import { registerOwner } from "../controllers/ownerController.js";
+import uploadOwnerDocs from "../middleware/uploadOwnerDocs.js";
+import { registerOwner } from "../controller/ownerController.js";
 
 const router = express.Router();
 

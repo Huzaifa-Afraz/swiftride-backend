@@ -1,8 +1,8 @@
 // controllers/ownerController.js
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import Users from "../models/Signup.js";         // your Users model file
-import OwnerProfile from "../models/OwnerProfile.js";
+import Users from "../Model/signup.js";         // your Users model file
+import OwnerProfile from "../Model/OwnerProfile.js";
 
 export const registerOwner = async (req, res) => {
   try {
